@@ -117,6 +117,13 @@ public class FPCameraController {
         Display.destroy();
     }
 
+    // method: render()
+    /*
+        purpose: the method draws a cube centered at the origin (0,0). Each face is drawn by specifying the 6 
+        sets of 4 vertices within a glBegin(GL_QUADS) block. Each face's vertices are specified in 
+        counterclockwise order. Each edge (wire in the wireframe) is drawn by specifying the same 6 sets of 4 
+        vertices within a glBegin(GL_LINE_LOOP) block
+    */
     private void render() {
         try {
             glBegin(GL_QUADS);
