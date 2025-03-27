@@ -4,6 +4,19 @@ import org.lwjgl.opengl.DisplayMode;
 import static org.lwjgl.opengl.GL11.*;
 import org.lwjgl.util.glu.GLU;
 
+/***************************************************************
+* file: DoubleIt.java
+* author: T. Diaz
+* class: CS 141 – Programming and Problem Solving
+*
+* assignment: program 1
+* date last modified: 3/20/2112
+*
+* purpose: This program accepts integer input from the command line, doubles the
+* value of input; the result is output to both the screen and a file called data.txt
+*
+****************************************************************/
+
 public class Basic3D {
     private FPCameraController fp = new FPCameraController(0f, 0f, 0f);
     private DisplayMode displayMode;
