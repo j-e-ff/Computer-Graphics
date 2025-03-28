@@ -4,7 +4,22 @@ import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.Display;
 import static org.lwjgl.opengl.GL11.*;
 import org.lwjgl.Sys;
-
+/***************************************************************
+* file: FPCameraController.java
+* author: Jeffrey Rodas
+* class: CS 4450
+*
+* assignment: Checkpoint 1
+* date last modified: 3/27/20204
+*
+* purpose: This code implements a first-person camera controller in 
+a 3D environment using LWJGL, allowing the user to move 
+(WASD, Space/Shift) and look around (mouse) in real time. It 
+renders a colored cube with a wireframe outline to demonstrate the 
+camera's movement and perspective. The system serves as a basic 
+foundation for first-person 3D games or simulations.
+*
+****************************************************************/
 public class FPCameraController {
     private Vector3f position = null;
     private Vector3f lPosition = null;
